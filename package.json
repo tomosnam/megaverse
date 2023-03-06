@@ -1,0 +1,22 @@
+{
+    "name": "megaverse",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "tsc && node dist/index.js",
+        "watch": "npx tsc --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "18.14.6",
+        "axios": "1.3.4",
+        "dotenv": "16.0.3",
+        "typescript": "4.9.5"
+    },
+    "devDependencies": {
+        "ts-node": "10.9.1"
+    }
+}
